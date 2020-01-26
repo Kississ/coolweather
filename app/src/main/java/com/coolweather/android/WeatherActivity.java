@@ -194,7 +194,7 @@ public class WeatherActivity extends AppCompatActivity {
         sportText.setText(sport);
 
         weatherLayout.setVisibility(View.VISIBLE);
-        
+
         Intent intent = new Intent(this, AutoUpdateService.class);
         startService(intent);
     }
